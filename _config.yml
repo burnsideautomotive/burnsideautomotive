@@ -2,9 +2,9 @@ url: https://burnsideautomotive.github.io
 baseurl: /
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Burnside Automotive
+email: burnsideautomotive@gmail.com
+description: "Burnside Automotive is a garage and workshop in Green Island, Dunedin. We do car repairs, upgrades, warrant of fitness (WOF) and general servicing."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -14,16 +14,12 @@ color:
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Brett Reid
   pic: 1
-  position: Lead Designer
+  position: Lead Meachic / Owner
   social:
-    - title: twitter
-      url: #
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: facebook.com/burnsideautomotive
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
