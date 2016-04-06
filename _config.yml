@@ -36,3 +36,14 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+mapping:
+    provider: google_js
+    api_key: AIzaSyDID3zqV3aVuvKTinlKYpRNrirntkohz70
+    zoom: 10
+    dimensions:
+      width: 600
+      height: 400
+    latitude: -45.9021512
+    longitude: 170.4421913
+

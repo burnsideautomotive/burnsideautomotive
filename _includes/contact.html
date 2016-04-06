@@ -8,26 +8,63 @@
             </div>
             <div class="row">
 
-                <ul id="contact-details" class="bg-light-gray">
+                <div class="col-lg-6">
+                <ul style="color: #fff">
                     <li>
                         <h3>Address</h3>
                         <p>
-                            Untitled Incorporated<br />
-                            1234 Somewhere Road Suite<br />
-                            Nashville, TN 00000-0000
+                            Burnside Automotive<br />
+                            109 Main South Rd, Burnside<br />
+                            Dunedin 9018
                         </p>
                     </li>
                     <li>
                         <h3>Mail</h3>
-                        <p><a href="#">someone@untitled.tld</a></p>
+                        <p><a href="mailto:burnside@gmail.com?Subject=CustomerContact" target="_top">burnside@gmail.com</a></p>
                     </li>
                     <li>
                         <h3>Phone</h3>
-                        <p>(800) 000-0000</p>
+                        <p>(03) 488 4099</p>
                     </li>
                 </ul>
 
+                </div>
 
+                <div class="row">
+
+                    <div class="col-lg-6">
+
+                    <div id="map" style="min-width:600px; height:500px;"></div>
+                    <script>
+                        var map;
+                        function initMap() {
+                            myLatLng = {lat: -45.9022988, lng: 170.444203}
+                            map = new google.maps.Map(document.getElementById('map'), {
+                                center: myLatLng,
+                                zoom: 18
+                            });
+
+                            var marker = new google.maps.Marker({
+                                position: myLatLng,
+                                map: map,
+                                title: 'Burnside Automotive',
+                                animation: google.maps.Animation.DROP,
+                                position: myLatLng
+                            });
+                            marker.addListener('click', toggleBounce);
+                        }
+
+                        function toggleBounce() {
+                            if (marker.getAnimation() !== null) {
+                                marker.setAnimation(null);
+                            } else {
+                                marker.setAnimation(google.maps.Animation.BOUNCE);
+                            }
+                        }
+                    </script>
+                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDID3zqV3aVuvKTinlKYpRNrirntkohz70&callback=initMap" async defer></script>
+                </div>
             </div>
+        </div>
         </div>
     </section>
