@@ -1,5 +1,5 @@
 url: https://burnsideautomotive.github.io
-baseurl: C:/Projects/burnsideautomotive/_site/
+baseurl: /
 
 # Site settings
 title: Burnside Automotive
@@ -23,27 +23,14 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
+    url: facebook.com/burnsideautomotive
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 109 Main South Rd
+  - line: Burnside, Dunedin 9018
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-mapping:
-    provider: google_js
-    api_key: AIzaSyDID3zqV3aVuvKTinlKYpRNrirntkohz70
-    zoom: 10
-    dimensions:
-      width: 600
-      height: 400
-    latitude: -45.9021512
-    longitude: 170.4421913
-
